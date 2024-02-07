@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Dynamic Sidebar and Navbar",
+    "link": "/dynamic-sidebar-navbar/dashboard"
+  },
+  {
+    "id": 2,
+    "name": "Grid Light",
+    "link": "/practice/grid-light"
+  },
+  {
+    "id": 3,
+    "name": "Countdown Timer",
+    "link": "/practice/countdown-timer"
+  }
+]

@@ -1,10 +1,9 @@
-import { Inter } from "next/font/google";
+// components
 import Sidebar from "@/src/components/dynamicSidebarNavbar/Sidebar";
 import Navbar from "@/src/components/dynamicSidebarNavbar/Navbar";
+import { childrenType } from "@/src/interface/common";
 
-const inter = Inter({ subsets: ["latin"] });
-
-export default function Layout({ children }: { children: React.ReactNode }) {
+export default function Layout({ children }: childrenType) {
   return (
     <div className="w-full h-full">
       <Navbar />

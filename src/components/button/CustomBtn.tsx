@@ -6,6 +6,7 @@ interface props {
   bgColor?: string;
   padding?: string;
   borderRadius?: string;
+  width?: string;
   onClick?: () => void;
 }
 
@@ -14,12 +15,13 @@ const CustomBtn = ({
   bgColor = "bg-black",
   padding = "py-2 px-6",
   fontSize = "text-base",
-  borderRadius = "round-sm",
+  borderRadius = "rounded-sm",
+  width = "w-auto",
   onClick,
 }: props) => {
   return (
     <div
-      className={`text-white rounded-md cursor-pointer ${bgColor} ${padding} ${fontSize} ${borderRadius}`}
+      className={`text-white cursor-pointer ${bgColor} ${padding} ${fontSize} ${borderRadius} ${width}`}
       onClick={onClick}
     >
       {text}

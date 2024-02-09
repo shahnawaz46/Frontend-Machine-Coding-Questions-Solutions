@@ -92,7 +92,7 @@ const CountdownTimer = () => {
   return (
     <>
       <TopHeading text="Countdown Timer" />
-      <SecondHeading text="Enter Hours, Minutes and Seconds and click on start button. And if you enter a number greater than 60 like you enter 120 in second then it will be convert into 1 minutes and 60 seconds" />
+      <SecondHeading text="Enter Hours, Minutes and Seconds and click on start button. You can't enter a number greater than 59 in seconds and minutes." />
 
       {/* time */}
       <div className="mt-3 flex items-center gap-3">

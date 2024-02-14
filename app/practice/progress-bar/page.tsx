@@ -32,6 +32,7 @@ const ProgressBar = () => {
       <TopHeading text="ProgressBar" />
       {/* <SecondHeading text="Enter Hours, Minutes and Seconds and click on start button. You can't enter a number greater than 59 in seconds and minutes." /> */}
 
+      {/* these role and aria is a part of Web accessibility */}
       <div>
         <div className="w-80 md:w-96 h-7 bg-slate-200 rounded-full overflow-hidden relative ">
           <div

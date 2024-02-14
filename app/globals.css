@@ -20,3 +20,7 @@ body {
     margin: 0;
   }
 }
+
+.pagination_box {
+  @apply w-10 h-10 border-2 rounded-md flex items-center justify-center cursor-pointer hover:bg-[#e5e7eb];
+}

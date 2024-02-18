@@ -47,7 +47,7 @@ const ProgressBar = () => {
             }}
           />
           <span
-            className="absolute top-1/2 left1/2 -translate-x-1/2 -translate-y-1/2"
+            className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
             style={{ color: progressValue < 54 ? "black" : "white" }}
           >
             {progressValue}%

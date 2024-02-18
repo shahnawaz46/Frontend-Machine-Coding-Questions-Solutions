@@ -4,11 +4,11 @@ import React, { useState } from "react";
 import { IoChevronBackOutline, IoChevronForwardOutline } from "react-icons/io5";
 
 // components
-import SecondHeading from "@/src/components/heading/SecondHeading";
 import { TopHeading } from "@/src/components/heading/TopHeading";
+import SecondHeading from "@/src/components/heading/SecondHeading";
 
-const totalPages = 20;
-const totalPaginationShow = 8;
+const totalPages = 15;
+const totalPaginationShow = 4;
 
 const Pagination = () => {
   const [currentPage, setCurrentPage] = useState<number>(1);
@@ -38,7 +38,7 @@ const Pagination = () => {
           {/* rendering button for pagination */}
           {[...new Array(totalPages)].map((_, i) =>
             //  i am showing pagination with ... in the middle so we don't need to show all the pages
-            // for example, if currentPage number is 4 then i am showing 4,5 and 10 (based on totalPaginationShow)
+            // for example, if currentPage number is 4 and totalPaginationShow is 3 then i am showing 4,5, ... and 10 (based on totalPaginationShow)
 
             // first condition -> responsible for show last numbers(depend on totalPaginationShow), if totalPaginationShow number is 4 and totalPages is 10 and user reached at number 7 then i am not showing (...) instead of this i am showing last 4 number i mean 7,8,9,10 (because totalPaginationShow number is 4).
 

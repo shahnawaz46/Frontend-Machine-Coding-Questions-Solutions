@@ -118,7 +118,6 @@ const CountdownTimer = () => {
             name="minutes"
             value={time?.minutes || ""}
             onChange={enterTime}
-            onKeyUp={(e) => console.log(e)}
             className="bg-inherit text-[#8973fd] w-full text-2xl md:text-3xl outline-none border-none text-center"
           />
           <span className="text-[#798EB0] text-base md:text-lg">Minutes</span>

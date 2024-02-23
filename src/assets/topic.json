@@ -15,18 +15,23 @@
     "link": "/practice/countdown-timer"
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "Progress Bar",
     "link": "/practice/progress-bar"
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "Pagination",
     "link": "/practice/pagination"
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "Stepper",
     "link": "/practice/stepper"
+  },
+  {
+    "id": 7,
+    "name": "Multi Select Search",
+    "link": "/practice/multi-select-search"
   }
 ]

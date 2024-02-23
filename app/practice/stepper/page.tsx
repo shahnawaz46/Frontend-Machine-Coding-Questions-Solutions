@@ -3,8 +3,8 @@
 import React, { useState } from "react";
 
 // components
-import SecondHeading from "@/src/components/heading/SecondHeading";
 import { TopHeading } from "@/src/components/heading/TopHeading";
+import SecondHeading from "@/src/components/heading/SecondHeading";
 import Step from "@/src/components/stepper/Step";
 import CustomBtn from "@/src/components/button/CustomBtn";
 
@@ -22,7 +22,7 @@ const Stepper = () => {
   return (
     <>
       <TopHeading text="Stepper" />
-      <SecondHeading text="" />
+      <SecondHeading text="A stepper with a green color when completed, a blue color while active, and a light blue color for upcoming steps." />
 
       <div className="mt-3">
         <div className="flex gap-2">

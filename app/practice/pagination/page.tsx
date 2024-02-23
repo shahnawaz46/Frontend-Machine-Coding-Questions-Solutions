@@ -7,7 +7,7 @@ import { IoChevronBackOutline, IoChevronForwardOutline } from "react-icons/io5";
 import { TopHeading } from "@/src/components/heading/TopHeading";
 import SecondHeading from "@/src/components/heading/SecondHeading";
 
-const totalPages = 15;
+const totalPages = 10;
 const totalPaginationShow = 4;
 
 const Pagination = () => {
